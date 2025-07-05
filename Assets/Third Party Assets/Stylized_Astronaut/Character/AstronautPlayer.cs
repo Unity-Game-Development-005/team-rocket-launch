@@ -20,7 +20,9 @@ namespace AstronautPlayer
 		}
 
 		void Update (){
-			if (Input.GetKey ("w")) {
+			//if (Input.GetKey ("w")) {
+			if (Input.GetKeyDown(KeyCode.W))
+			{ 
 				anim.SetInteger ("AnimationPar", 1);
 			}  else {
 				anim.SetInteger ("AnimationPar", 0);
