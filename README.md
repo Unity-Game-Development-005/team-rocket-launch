@@ -1,2 +1,2 @@
-# team-rocket-launch
+# rocket-launch
 Week 9 Weekly Challenge
